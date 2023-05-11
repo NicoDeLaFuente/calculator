@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Calculator app</title>
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="wrapper principal-text-color-t1" id="wrapper">
+    <header>
+      <h1>Calc</h1>
+      <div class="theme">
+        <p>Theme</p>
+        <div class="theme-switcher" id="theme-switcher">
+          <div class="numbers">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+          </div>
+          <div class="toggle toggle-bg-color-t1">
+            <div class="option option-1 toggle-color-t1" id="theme-1"></div>
+            <div class="option" id="theme-2"></div>
+            <div class="option" id="theme-3"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+
+      <div class="display-number screen-bg-t1" id="screen">
+        <p id="screen-number">0</p>
+      </div>
+
+      <div class="numbers-container bg-calculator-t1" id="bg-calculator">
+        <div class="little-buttons secondary-text-color-t1" id="little-buttons">
+          <button class="btn bg-key-number" id="7"><p class="paragraph">7</p></button>
+          <button class="btn bg-key-number" id="8"><p class="paragraph">8</p></button>
+          <button class="btn bg-key-number" id="9"><p class="paragraph">9</p></button>
+          <button class="btn bg-key-number text-size reset-del-button-bg-t1 del-reset" id="delete"><p class="principal-text-color-t1">DEL</p></button>
+          <button class="btn bg-key-number" id="4"><p class="paragraph">4</p></button>
+          <button class="btn bg-key-number" id="5"><p class="paragraph">5</p></button>
+          <button class="btn bg-key-number" id="6"><p class="paragraph">6</p></button>
+          <button class="btn bg-key-number" id="addition"><p class="paragraph">+</p></button>
+          <button class="btn bg-key-number" id="1"><p class="paragraph">1</p></button>
+          <button class="btn bg-key-number" id="2"><p class="paragraph">2</p></button>
+          <button class="btn bg-key-number" id="3"><p class="paragraph">3</p></button>
+          <button class="btn bg-key-number" id="substraction"><p class="paragraph">-</p></button>
+          <button class="btn bg-key-number" id="dot"><p class="paragraph">.</p></button>
+          <button class="btn bg-key-number" id="0"><p class="paragraph">0</p></button>
+          <button class="btn bg-key-number" id="divisor"><p class="paragraph">/</p></button>
+          <button class="btn bg-key-number" id="multiplication"><p class="paragraph">*</p></button>
+          <button class="btn big-button text-size reset-del-button-bg-t1 del-reset" id="reset"><p class="principal-text-color-t1">RESET</p></button>
+          <button class="btn big-button equal-button-bg-t1" id="equal"><p class="principal-text-color-t1">=</p></button>
+        </div>
+
+      </div>
+
+    </main>
+
+
+    <footer class="footer">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/NicoDeLaFuente" target=":_blank">Nicolas De La Fuente</a>.
+    </footer>
+  </div>
+  <script src="./script/script.js"></script>
+</body>
+
+</html>
